@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="3.5_Loot_Generator" default="default" basedir=".">
-    <description>Builds, tests, and runs the project 3.5 Loot Generator.</description>
+<project name="3.5_Lettuce_Loot_Generator" default="default" basedir=".">
+    <description>Builds, tests, and runs the project 3.5 Lettuce Loot Generator.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -59,7 +59,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="3.5_Loot_Generator-impl.jar">
+        <target name="run" depends="3.5_Lettuce_Loot_Generator-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
